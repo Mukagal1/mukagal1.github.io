@@ -1,8 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-<meta http-equiv="refresh" content="0; url=https://wa.me/77074285404" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться с нами в WhatsApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            color: #333;
+        }
+        
+        h1 {
+            color: #25D366;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        
+        a.button {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+        
+        a.button:hover {
+            background-color: #128C7E;
+        }
+    </style>
 </head>
 <body>
+    <h1>Связаться с нами</h1>
+    <p>
+        Нажмите кнопку ниже, чтобы открыть чат в WhatsApp.<br>
+        Если вы не хотите ждать, можете кликнуть сразу.
+    </p>
+    <a href="https://wa.me/77074285404" class="button" target="_blank" rel="noopener">Написать в WhatsApp</a>
+
+    <script>
+        // Автоматический редирект через 3 секунды
+        setTimeout(() => {
+            window.location.href = "https://wa.me/77074285404";
+        }, 3000);
+    </script>
 </body>
 </html>
